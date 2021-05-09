@@ -1,11 +1,18 @@
 import react from 'react';
 import Banner from './Banner'
+import LoginScreen from './LoginScreen';
 import NavBar from './NavBar'
 import requests from './Request'
 import Row from './Row'
 const HomeScreen = () => {
-    return (
+
+ 
+  
+  return (
+    
         <div className  = "homeScreen">
+
+
            <NavBar/>
            <Banner/>
            <Row 
@@ -44,6 +51,7 @@ const HomeScreen = () => {
           
         </div>
     )
+  
 }
 
 export default HomeScreen;

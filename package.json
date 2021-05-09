@@ -1,5 +1,5 @@
 {
-  "homepage" : "http://UsmanSiddique09.github.io/Netflix-Clone",
+  "homepage": "http://UsmanSiddique09.github.io/Netflix-Clone",
   "name": "netflix",
   "version": "0.1.0",
   "private": true,
@@ -9,14 +9,17 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "axios": "^0.21.1",
+    "firebase": "^8.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.4",
-    "react-scripts": "4.0.3"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "router": "^1.3.5"
   },
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
