@@ -32,10 +32,10 @@ function App() {
       <Router>
       {!user ? <LoginScreen/>:
         <Switch>
-          <Route path ="Netflix-Clone/profile">
+          <Route path = { process.env.PUBLIC_URL + "/profile"}>
             <ProfileScreen/>
           </Route>
-          <Route exact path = "Netflix-Clone/">
+          <Route exact path = {process.env.PUBLIC_URL + "/"}>
             <HomeScreen/>
           </Route>
       </Switch>
