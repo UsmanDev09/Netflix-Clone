@@ -1,0 +1,36 @@
+.searchResults{
+    color:white;
+    
+    margin-left: 20px;
+}
+
+.searchResults_posters{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  
+    padding:20px;
+}
+.searchResults_block{
+    height: 200px;
+    width: 200px;
+    margin: 20px 5px;
+}
+.searchResults_poster{
+    display: flex;
+    flex-wrap: wrap;
+    height: 150px;
+    width:200px;
+    cursor: pointer;
+}
+
+.searchResults_poster:hover{
+    transition:all 0.3s;
+    transform:scale(1.2);
+
+}
+.searchResults_title{
+    font-weight: 300;
+    font-size: 14px;
+    text-align: center;
+}
