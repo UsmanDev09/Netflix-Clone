@@ -2,6 +2,7 @@ import react, { useEffect } from 'react'
 import {useHistory} from 'react-router-dom'
 import {useState} from 'react'
 import search from './icons/search.svg'
+import logo from './icons/logo.png'
 import  './NavBar.css'
 const NavBar = (props) => {
     const [barToggle,setBarToggle] = useState(false)
@@ -27,7 +28,7 @@ const NavBar = (props) => {
 
             <div className = "nav_contents">
                 <img onClick = {() => history.push(process.env.PUBLIC_URL + "/")}  className = "nav_logo" 
-                src = "http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png" alt = "netflix-logo"></img>
+                src = {logo} alt = "netflix-logo"></img>
                 
             <div style = {{display:"flex"}}>
                 <div style = {{width:barToggle? "250px": "0", border: barToggle? "1px solid white" : "0px solid white",backgroundColor:"black"}}className = "nav_rightWrapper">

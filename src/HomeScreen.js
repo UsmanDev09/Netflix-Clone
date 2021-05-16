@@ -1,6 +1,6 @@
 import react,{useState} from 'react';
 import Banner from './Banner'
-import LoginScreen from './LoginScreen';
+
 import NavBar from './NavBar'
 import requests from './Request'
 import Row from './Row'
